@@ -3,6 +3,6 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-int number = new Random().Next(1, 10);
+int number = new Random().Next(1, 100);
 Console.WriteLine(number);
 for (int i=1; i<=number; i++) Console.Write(Math.Pow(i, 3) + "\t");
